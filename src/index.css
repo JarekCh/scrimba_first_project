@@ -27,4 +27,75 @@ body {
   margin-left: 7px;  
 }
 
+.travel__list {
+  margin: 100px 40px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.travel {
+  display: flex;
+  width: 470px;  
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.travel::after {
+  content: '';
+  position: absolute;
+  width: 478px;  
+  border-bottom: 1px solid black;
+  top: 100%;
+  left: -15px;
+  margin: 15px;  
+  opacity: 0.1;
+}
+
+.travel:last-child:after{
+  content: none;
+}
+
+.travel__img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.travel__container {
+  font-size: 10px;
+}
+
+.travel__cords {
+  display: flex;
+  align-items: center;
+}
+
+.travel__cords > span { 
+  margin: 0 12px 0 4px;
+}
+
+.travel__cords > a {  
+  color: #918E9B;
+  text-underline-position: under;  
+  cursor: pointer;
+}
+
+.travel__cords > a:hover {
+  color: #5832c9;
+  transform: scale(1.1);
+  transition: 0.3 ease-in-out;
+}
+
+.travel__lacation {
+  font-size: 25px;  
+  margin: 10px 0 18px 0;
+}
+
+.travel__date {
+  margin-bottom: 10px;
+}
+
 
