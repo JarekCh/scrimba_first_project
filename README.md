@@ -5,10 +5,14 @@ Project assume maping over main section with dynamic data from provided file.
 Main goal was to practise html,css and React structuring and dynamic data.
 Project is small so the only way to run it will be via npm start on local host.
 
+Layout based on provided figma project:
+https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?node-id=0%3A1
+
 # Tech stack:
 - React
 - Css 
 - Html
+- Figma
 
 ## Available Scripts
 
